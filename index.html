@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Page Birthday Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card-container">
+        <div class="card">
+            <div class="card-front">
+                <h1 class="card-title">Open Me!</h1>
+                <p>Click on the card to open</p>
+            </div>
+
+            <div class="card-inside">
+                <div class="card-page page-1 active">
+                    <h1 class="inside-title">Happy Birthday Tamu!</h1>
+                    <p class="inside-message">Wishing you a day filled with joy, laughter, and everything you wish!</p>
+                </div>
+                
+                <div class="card-page page-2">
+                    <h2 class="page-header">A Little Story...</h2>
+                    <p class="page-text">It's amazing how some connections just click. 
+                        Even though we haven't known each other long, it feels like we've been friends for years. I'm so glad our paths crossed. 
+                        Hope your day is as wonderful as you are!
+
+</p>
+                </div>
+
+                <div class="card-page page-3">
+                    <h2 class="page-header">Here's to the Future!</h2>
+                    <p class="page-text">May this new year of life bring you a sense of peace, good health, and an abundance of love from those who matter most.</p>
+                </div>
+
+                <div class="nav-buttons">
+                    <button id="prevBtn" disabled>&lt; Prev</button>
+                    <button id="nextBtn">Next &gt;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="confetti-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
